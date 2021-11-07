@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44C3AD8CA58017101C33A605 /* Pods_RakuMusicAPILesson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F673390AAEBDD013BE35FD /* Pods_RakuMusicAPILesson.framework */; };
 		54E10FC9273810CA00A2019E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FC8273810CA00A2019E /* AppDelegate.swift */; };
 		54E10FCB273810CA00A2019E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FCA273810CA00A2019E /* SceneDelegate.swift */; };
 		54E10FCD273810CA00A2019E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FCC273810CA00A2019E /* ViewController.swift */; };
 		54E10FD0273810CA00A2019E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E10FCE273810CA00A2019E /* Main.storyboard */; };
 		54E10FD2273810CD00A2019E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E10FD1273810CD00A2019E /* Assets.xcassets */; };
 		54E10FD5273810CD00A2019E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E10FD3273810CD00A2019E /* LaunchScreen.storyboard */; };
+		54E10FE12738119A00A2019E /* CollectionCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FDF2738119A00A2019E /* CollectionCustomCell.swift */; };
+		54E10FE22738119A00A2019E /* CollectionCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54E10FE02738119A00A2019E /* CollectionCustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00F673390AAEBDD013BE35FD /* Pods_RakuMusicAPILesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RakuMusicAPILesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1450E9FDFB14505F798710FA /* Pods-RakuMusicAPILesson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakuMusicAPILesson.debug.xcconfig"; path = "Target Support Files/Pods-RakuMusicAPILesson/Pods-RakuMusicAPILesson.debug.xcconfig"; sourceTree = "<group>"; };
 		54E10FC5273810CA00A2019E /* RakuMusicAPILesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RakuMusicAPILesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E10FC8273810CA00A2019E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54E10FCA273810CA00A2019E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		54E10FD1273810CD00A2019E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54E10FD4273810CD00A2019E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54E10FD6273810CD00A2019E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E10FDF2738119A00A2019E /* CollectionCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCustomCell.swift; sourceTree = "<group>"; };
+		54E10FE02738119A00A2019E /* CollectionCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCustomCell.xib; sourceTree = "<group>"; };
+		D3D0FC519013EF8B63E597D7 /* Pods-RakuMusicAPILesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakuMusicAPILesson.release.xcconfig"; path = "Target Support Files/Pods-RakuMusicAPILesson/Pods-RakuMusicAPILesson.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C3AD8CA58017101C33A605 /* Pods_RakuMusicAPILesson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D386A8DDFDD3EF8B27508B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1450E9FDFB14505F798710FA /* Pods-RakuMusicAPILesson.debug.xcconfig */,
+				D3D0FC519013EF8B63E597D7 /* Pods-RakuMusicAPILesson.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		54E10FBC273810CA00A2019E = {
 			isa = PBXGroup;
 			children = (
 				54E10FC7273810CA00A2019E /* RakuMusicAPILesson */,
 				54E10FC6273810CA00A2019E /* Products */,
+				0D386A8DDFDD3EF8B27508B9 /* Pods */,
+				E1828E6E6B55DB8D285F2122 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +78,55 @@
 			children = (
 				54E10FC8273810CA00A2019E /* AppDelegate.swift */,
 				54E10FCA273810CA00A2019E /* SceneDelegate.swift */,
-				54E10FCC273810CA00A2019E /* ViewController.swift */,
-				54E10FCE273810CA00A2019E /* Main.storyboard */,
-				54E10FD1273810CD00A2019E /* Assets.xcassets */,
+				54E10FDE2738114400A2019E /* Model */,
+				54E10FDD2738113900A2019E /* View */,
+				54E10FDC2738112C00A2019E /* Controller */,
 				54E10FD3273810CD00A2019E /* LaunchScreen.storyboard */,
 				54E10FD6273810CD00A2019E /* Info.plist */,
 			);
 			path = RakuMusicAPILesson;
+			sourceTree = "<group>";
+		};
+		54E10FDC2738112C00A2019E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54E10FCC273810CA00A2019E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54E10FDD2738113900A2019E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54E10FCE273810CA00A2019E /* Main.storyboard */,
+				54E10FD1273810CD00A2019E /* Assets.xcassets */,
+				54E10FE3273811AE00A2019E /* CollectionViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54E10FDE2738114400A2019E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54E10FE3273811AE00A2019E /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				54E10FDF2738119A00A2019E /* CollectionCustomCell.swift */,
+				54E10FE02738119A00A2019E /* CollectionCustomCell.xib */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		E1828E6E6B55DB8D285F2122 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00F673390AAEBDD013BE35FD /* Pods_RakuMusicAPILesson.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54E10FD9273810CD00A2019E /* Build configuration list for PBXNativeTarget "RakuMusicAPILesson" */;
 			buildPhases = (
+				DBAA4CD1B8BDD08050DB0193 /* [CP] Check Pods Manifest.lock */,
 				54E10FC1273810CA00A2019E /* Sources */,
 				54E10FC2273810CA00A2019E /* Frameworks */,
 				54E10FC3273810CA00A2019E /* Resources */,
+				E227F1CE12EF837923A505C4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E10FE22738119A00A2019E /* CollectionCustomCell.xib in Resources */,
 				54E10FD5273810CD00A2019E /* LaunchScreen.storyboard in Resources */,
 				54E10FD2273810CD00A2019E /* Assets.xcassets in Resources */,
 				54E10FD0273810CA00A2019E /* Main.storyboard in Resources */,
@@ -133,11 +198,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DBAA4CD1B8BDD08050DB0193 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RakuMusicAPILesson-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E227F1CE12EF837923A505C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RakuMusicAPILesson/Pods-RakuMusicAPILesson-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RakuMusicAPILesson/Pods-RakuMusicAPILesson-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RakuMusicAPILesson/Pods-RakuMusicAPILesson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		54E10FC1273810CA00A2019E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E10FE12738119A00A2019E /* CollectionCustomCell.swift in Sources */,
 				54E10FCD273810CA00A2019E /* ViewController.swift in Sources */,
 				54E10FC9273810CA00A2019E /* AppDelegate.swift in Sources */,
 				54E10FCB273810CA00A2019E /* SceneDelegate.swift in Sources */,
@@ -284,6 +392,7 @@
 		};
 		54E10FDA273810CD00A2019E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1450E9FDFB14505F798710FA /* Pods-RakuMusicAPILesson.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,6 +403,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,12 +415,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		54E10FDB273810CD00A2019E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D0FC519013EF8B63E597D7 /* Pods-RakuMusicAPILesson.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +432,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +444,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
