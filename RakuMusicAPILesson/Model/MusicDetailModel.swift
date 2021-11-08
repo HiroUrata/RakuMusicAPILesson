@@ -8,6 +8,7 @@
 
 struct MusicDetailModel{
     
+    let mediumImageUrl:String?
     let title:String?
     let artistName:String?
     let label:String?
