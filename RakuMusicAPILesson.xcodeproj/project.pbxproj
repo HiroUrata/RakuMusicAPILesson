@@ -16,6 +16,8 @@
 		54E10FD5273810CD00A2019E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54E10FD3273810CD00A2019E /* LaunchScreen.storyboard */; };
 		54E10FE12738119A00A2019E /* CollectionCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FDF2738119A00A2019E /* CollectionCustomCell.swift */; };
 		54E10FE22738119A00A2019E /* CollectionCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54E10FE02738119A00A2019E /* CollectionCustomCell.xib */; };
+		54E10FE52739507800A2019E /* MusicDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FE42739507800A2019E /* MusicDetailModel.swift */; };
+		54E10FE72739508D00A2019E /* AlamofireProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FE62739508D00A2019E /* AlamofireProcess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		54E10FD6273810CD00A2019E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54E10FDF2738119A00A2019E /* CollectionCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCustomCell.swift; sourceTree = "<group>"; };
 		54E10FE02738119A00A2019E /* CollectionCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCustomCell.xib; sourceTree = "<group>"; };
+		54E10FE42739507800A2019E /* MusicDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailModel.swift; sourceTree = "<group>"; };
+		54E10FE62739508D00A2019E /* AlamofireProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireProcess.swift; sourceTree = "<group>"; };
 		D3D0FC519013EF8B63E597D7 /* Pods-RakuMusicAPILesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakuMusicAPILesson.release.xcconfig"; path = "Target Support Files/Pods-RakuMusicAPILesson/Pods-RakuMusicAPILesson.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +112,8 @@
 		54E10FDE2738114400A2019E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				54E10FE42739507800A2019E /* MusicDetailModel.swift */,
+				54E10FE62739508D00A2019E /* AlamofireProcess.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -246,8 +252,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				54E10FE12738119A00A2019E /* CollectionCustomCell.swift in Sources */,
+				54E10FE52739507800A2019E /* MusicDetailModel.swift in Sources */,
 				54E10FCD273810CA00A2019E /* ViewController.swift in Sources */,
 				54E10FC9273810CA00A2019E /* AppDelegate.swift in Sources */,
+				54E10FE72739508D00A2019E /* AlamofireProcess.swift in Sources */,
 				54E10FCB273810CA00A2019E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
