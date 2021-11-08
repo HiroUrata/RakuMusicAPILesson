@@ -18,6 +18,10 @@
 		54E10FE22738119A00A2019E /* CollectionCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54E10FE02738119A00A2019E /* CollectionCustomCell.xib */; };
 		54E10FE52739507800A2019E /* MusicDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FE42739507800A2019E /* MusicDetailModel.swift */; };
 		54E10FE72739508D00A2019E /* AlamofireProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FE62739508D00A2019E /* AlamofireProcess.swift */; };
+		54E10FEA2739610900A2019E /* MusicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FE82739610900A2019E /* MusicDetailViewController.swift */; };
+		54E10FEB2739610900A2019E /* MusicDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54E10FE92739610900A2019E /* MusicDetailViewController.xib */; };
+		54E10FEF273962B100A2019E /* TableViewCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E10FED273962B100A2019E /* TableViewCustomCell.swift */; };
+		54E10FF0273962B100A2019E /* TableViewCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54E10FEE273962B100A2019E /* TableViewCustomCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		54E10FE02738119A00A2019E /* CollectionCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionCustomCell.xib; sourceTree = "<group>"; };
 		54E10FE42739507800A2019E /* MusicDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailModel.swift; sourceTree = "<group>"; };
 		54E10FE62739508D00A2019E /* AlamofireProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireProcess.swift; sourceTree = "<group>"; };
+		54E10FE82739610900A2019E /* MusicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDetailViewController.swift; sourceTree = "<group>"; };
+		54E10FE92739610900A2019E /* MusicDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicDetailViewController.xib; sourceTree = "<group>"; };
+		54E10FED273962B100A2019E /* TableViewCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCustomCell.swift; sourceTree = "<group>"; };
+		54E10FEE273962B100A2019E /* TableViewCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCustomCell.xib; sourceTree = "<group>"; };
 		D3D0FC519013EF8B63E597D7 /* Pods-RakuMusicAPILesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RakuMusicAPILesson.release.xcconfig"; path = "Target Support Files/Pods-RakuMusicAPILesson/Pods-RakuMusicAPILesson.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +113,7 @@
 				54E10FCE273810CA00A2019E /* Main.storyboard */,
 				54E10FD1273810CD00A2019E /* Assets.xcassets */,
 				54E10FE3273811AE00A2019E /* CollectionViewCell */,
+				54E10FEC2739611300A2019E /* MusicDetailView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,6 +134,25 @@
 				54E10FE02738119A00A2019E /* CollectionCustomCell.xib */,
 			);
 			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		54E10FEC2739611300A2019E /* MusicDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				54E10FE82739610900A2019E /* MusicDetailViewController.swift */,
+				54E10FE92739610900A2019E /* MusicDetailViewController.xib */,
+				54E10FF12739636C00A2019E /* TableViewCell */,
+			);
+			path = MusicDetailView;
+			sourceTree = "<group>";
+		};
+		54E10FF12739636C00A2019E /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				54E10FED273962B100A2019E /* TableViewCustomCell.swift */,
+				54E10FEE273962B100A2019E /* TableViewCustomCell.xib */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 		E1828E6E6B55DB8D285F2122 /* Frameworks */ = {
@@ -195,7 +223,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54E10FEB2739610900A2019E /* MusicDetailViewController.xib in Resources */,
 				54E10FE22738119A00A2019E /* CollectionCustomCell.xib in Resources */,
+				54E10FF0273962B100A2019E /* TableViewCustomCell.xib in Resources */,
 				54E10FD5273810CD00A2019E /* LaunchScreen.storyboard in Resources */,
 				54E10FD2273810CD00A2019E /* Assets.xcassets in Resources */,
 				54E10FD0273810CA00A2019E /* Main.storyboard in Resources */,
@@ -253,7 +283,9 @@
 			files = (
 				54E10FE12738119A00A2019E /* CollectionCustomCell.swift in Sources */,
 				54E10FE52739507800A2019E /* MusicDetailModel.swift in Sources */,
+				54E10FEF273962B100A2019E /* TableViewCustomCell.swift in Sources */,
 				54E10FCD273810CA00A2019E /* ViewController.swift in Sources */,
+				54E10FEA2739610900A2019E /* MusicDetailViewController.swift in Sources */,
 				54E10FC9273810CA00A2019E /* AppDelegate.swift in Sources */,
 				54E10FE72739508D00A2019E /* AlamofireProcess.swift in Sources */,
 				54E10FCB273810CA00A2019E /* SceneDelegate.swift in Sources */,
